@@ -1,4 +1,4 @@
-# 📉 Telco Customer Churn Prediction with XGBoost & SHAP
+#  Telco Customer Churn Prediction with XGBoost & SHAP
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![XGBoost](https://img.shields.io/badge/XGBoost-Model-green)
@@ -7,7 +7,7 @@
 ##  Project Overview
 This project implements an end-to-end Machine Learning pipeline to predict customer churn in the telecommunications industry. It utilizes **SHAP (SHapley Additive exPlanations)** to provide deep interpretability, identifying the root causes of customer attrition.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Data Processing:** Pandas, NumPy, Scikit-Learn
 * **Visualization:** Matplotlib, Seaborn
 * **Modeling:** XGBoost Classifier
@@ -24,7 +24,7 @@ The model was evaluated using Stratified 10-Fold Cross-Validation.
 | **Recall** | 65.27% |
 | **Precision** | 58.80% |
 
-## 🔍 Model Interpretability
+##  Model Interpretability
 
 ### 1. Feature Impact (Beeswarm Plot)
 ![Beeswarm Plot](Results/shap_beeswarm_plot.png)
